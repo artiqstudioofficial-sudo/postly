@@ -1,0 +1,6 @@
+# Postly Hostinger Configuration
+RewriteEngine On
+RewriteBase /
+
+# If using Hostinger Node.js Passenger / Proxy
+# RewriteRule ^(.*)$ http://127.0.0.1:3001/$1 [P,L]
